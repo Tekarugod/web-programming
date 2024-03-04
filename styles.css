@@ -1,11 +1,18 @@
-
+*{
+    text-decoration: none;
+    margin: 0%;
+}
+a{
+    color: black;
+}
 
 header{
     display: flex;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 100px;
     align-items: center;
+   
   }
   .header{
     display: flex;
@@ -21,11 +28,7 @@ header{
   height: 105px;
   
   }
-  .container{
-    display: flex;
-    width: 90%;
-    margin: auto;
-  }
+
   nav{
     display: flex;
     align-items: center;
@@ -49,4 +52,35 @@ header{
   background-color: #000000;
   color: #fff;
   }
+  header a:hover {
+    color:#fff;
+    background-color: #f5f5f562;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    margin: auto;
+  }
+  .icon{
+    width: 40px;
+  }
+  .title-screen{
+    width: 100%;
+    height: 720px;
+  }
+  .title-screen::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 720px;
+    background-image: url("./assets/img/photo_2024-03-04_17-14-35.jpg");
+    margin-top: 10px;
+    background-size: cover;
+    background-position: -0px;
+    background-repeat: no-repeat;
+    filter: blur(4px);
+  }
+  
      
