@@ -1,0 +1,35 @@
+.contacts-info p {
+    display: inline;
+    font-weight: bolder;
+}
+
+.contacts-info-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contacts {
+    border: solid 2px rgb(230, 230, 230);
+    width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.telegram-info p {
+    display: inline;
+    font-weight: bolder;
+}
+
+
+.telegram-info img {
+    width: 30px;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
